@@ -16,10 +16,9 @@ public class AnimalsCage {
 
     @Bean
     @Qualifier("animalsCage")
-    public Timer getTimer(){
-return time;
+    public Timer getTimer() {
+        return time;
     }
-
 
 
     public void whatAnimalSay() {
